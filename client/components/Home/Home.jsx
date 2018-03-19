@@ -6,8 +6,9 @@ import './home.css'
 class Home extends React.Component {
   render () {
     return (
-      <div className = 'homeContainer'>
-        <h1> HOME </h1>
+      <div className = 'home-container'>
+        <h1 className = 'home-header'> TIMOTHY TOLLEY </h1>
+        <h1 className = 'home-header'> FREELANCE </h1>
       </div>
     )
   }

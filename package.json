@@ -4,10 +4,11 @@
   "description": "Personal Website for Timothy Tolley",
   "author": "timothy-tolley <timothytolley@outlook.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "start": "webpack && node server",
-    "dev": "nodemon server & webpack --watch",
+    "build": "webpack --config ./client/webpack.config.js",
+    "dev": "nodemon --watch server/index.js & yarn build --watch",
     "test": "jest --watch --noStackTrace"
   },
   "repository": "https://github.com/Timothy-Tolley/timothy-tolley.git",
@@ -25,10 +26,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "body-parser": "^1.18.2",
-    "css-loader": "^0.28.10",
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
-    "node-sass": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
@@ -37,6 +36,8 @@
     "redux-thunk": "^2.1.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
+    "node-sass": "^4.7.2",
+    "css-loader": "^0.28.10",
     "superagent": "^3.8.2",
     "webpack": "^3.10.0"
   },
