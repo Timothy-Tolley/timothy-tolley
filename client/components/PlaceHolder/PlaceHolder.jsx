@@ -16,10 +16,10 @@ class PlaceHolder extends React.Component {
             <a href="mailto:timothytolley@outlook.com" className = 'placeholder-link'>
               <img src = '/images/mail.png' alt = 'mail logo' className = 'ext-logo'/>
             </a>
-            <a href="https://github.com/Timothy-Tolley" className = 'placeholder-link'>
+            <a href="https://github.com/Timothy-Tolley" target= '_blank' rel = 'noopener noreferrer' className = 'placeholder-link'>
               <img src = '/images/github.png' className = 'ext-logo' alt = 'github logo'/>
             </a>
-            <a href="https://www.linkedin.com/in/timothy-tolley/" className = 'placeholder-link'>
+            <a href="https://www.linkedin.com/in/timothy-tolley/" target= '_blank' rel = 'noopener noreferrer' className = 'placeholder-link'>
               <img src = '/images/linkedin.png' className = 'ext-logo' alt = 'github logo'/>
             </a>
           </div>

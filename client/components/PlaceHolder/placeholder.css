@@ -55,7 +55,7 @@
   align-self: center;
   padding: 10px;
   opacity: 1.0;
-  filter: alpha(opacity=100)
+  filter: alpha(opacity=100);
 }
 
 .ext-logo:hover {
